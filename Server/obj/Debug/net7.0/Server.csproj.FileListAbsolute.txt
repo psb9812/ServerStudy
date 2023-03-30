@@ -1,0 +1,15 @@
+/Users/been9812/Documents/GitHub/ServerStudy/Server/bin/Debug/net7.0/Server
+/Users/been9812/Documents/GitHub/ServerStudy/Server/bin/Debug/net7.0/Server.deps.json
+/Users/been9812/Documents/GitHub/ServerStudy/Server/bin/Debug/net7.0/Server.runtimeconfig.json
+/Users/been9812/Documents/GitHub/ServerStudy/Server/bin/Debug/net7.0/Server.dll
+/Users/been9812/Documents/GitHub/ServerStudy/Server/bin/Debug/net7.0/Server.pdb
+/Users/been9812/Documents/GitHub/ServerStudy/Server/obj/Debug/net7.0/Server.csproj.AssemblyReference.cache
+/Users/been9812/Documents/GitHub/ServerStudy/Server/obj/Debug/net7.0/Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/been9812/Documents/GitHub/ServerStudy/Server/obj/Debug/net7.0/Server.AssemblyInfoInputs.cache
+/Users/been9812/Documents/GitHub/ServerStudy/Server/obj/Debug/net7.0/Server.AssemblyInfo.cs
+/Users/been9812/Documents/GitHub/ServerStudy/Server/obj/Debug/net7.0/Server.csproj.CoreCompileInputs.cache
+/Users/been9812/Documents/GitHub/ServerStudy/Server/obj/Debug/net7.0/Server.dll
+/Users/been9812/Documents/GitHub/ServerStudy/Server/obj/Debug/net7.0/refint/Server.dll
+/Users/been9812/Documents/GitHub/ServerStudy/Server/obj/Debug/net7.0/Server.pdb
+/Users/been9812/Documents/GitHub/ServerStudy/Server/obj/Debug/net7.0/Server.genruntimeconfig.cache
+/Users/been9812/Documents/GitHub/ServerStudy/Server/obj/Debug/net7.0/ref/Server.dll

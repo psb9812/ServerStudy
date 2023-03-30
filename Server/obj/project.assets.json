@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/been9812/ServerC#/Server/Server/Server.csproj",
+      "projectUniqueName": "/Users/been9812/Documents/GitHub/ServerStudy/Server/Server.csproj",
       "projectName": "Server",
-      "projectPath": "/Users/been9812/ServerC#/Server/Server/Server.csproj",
+      "projectPath": "/Users/been9812/Documents/GitHub/ServerStudy/Server/Server.csproj",
       "packagesPath": "/Users/been9812/.nuget/packages/",
-      "outputPath": "/Users/been9812/ServerC#/Server/Server/obj/",
+      "outputPath": "/Users/been9812/Documents/GitHub/ServerStudy/Server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/been9812/.nuget/NuGet/NuGet.Config"

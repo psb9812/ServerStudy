@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/been9812/ServerC#/Server/DummyClient/DummyClient.csproj": {}
+    "/Users/been9812/Documents/GitHub/ServerStudy/DummyClient/DummyClient.csproj": {}
   },
   "projects": {
-    "/Users/been9812/ServerC#/Server/DummyClient/DummyClient.csproj": {
+    "/Users/been9812/Documents/GitHub/ServerStudy/DummyClient/DummyClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/been9812/ServerC#/Server/DummyClient/DummyClient.csproj",
+        "projectUniqueName": "/Users/been9812/Documents/GitHub/ServerStudy/DummyClient/DummyClient.csproj",
         "projectName": "DummyClient",
-        "projectPath": "/Users/been9812/ServerC#/Server/DummyClient/DummyClient.csproj",
+        "projectPath": "/Users/been9812/Documents/GitHub/ServerStudy/DummyClient/DummyClient.csproj",
         "packagesPath": "/Users/been9812/.nuget/packages/",
-        "outputPath": "/Users/been9812/ServerC#/Server/DummyClient/obj/",
+        "outputPath": "/Users/been9812/Documents/GitHub/ServerStudy/DummyClient/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/been9812/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AWENIco01RfY92xsoLRQnaM67/x93rFpN7kCRstCwh2ffnBULX9g93jrlYGvLZ4JHdXG6NeWQvC7L3KIwOqv3w==",
+  "dgSpecHash": "qIKTEHkZBjw6NFsEfmHDFPlTe/Ko8jUs7Psf+6TQEQ1mpYf4pAb/tfjoDDeYLzSMyzIGqJQBtW0K3yHzXCtMAg==",
   "success": true,
-  "projectFilePath": "/Users/been9812/ServerC#/Server/ServerCore/ServerCore.csproj",
+  "projectFilePath": "/Users/been9812/Documents/GitHub/ServerStudy/ServerCore/ServerCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
