@@ -2,7 +2,7 @@
 
 namespace ServerCore
 {
-    //스핀락 구현
+    // 랜덤 메타 구현
     class SpinLock
     {
         volatile int _locked = 0;
@@ -17,6 +17,12 @@ namespace ServerCore
                 {
                     break;
                 }
+
+                //락을 취득하지 못했을 때 어떻게 처리하느냐에 따라 구현 방법이 나뉜다.
+                //랜덤 메타의 경우 쉬다올게 ~하는 느낌의 세가지 방법
+                //Thread.Sleep(0);
+                //Thread.Sleep(1);
+                Thread.Yield();
             }
         }
 
