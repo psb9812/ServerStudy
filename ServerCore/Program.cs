@@ -3,57 +3,48 @@
 namespace ServerCore
 {
     // 랜덤 메타 구현
-    class SpinLock
+    class Lock
     {
-        volatile int _locked = 0;
+        //톨게이트 같은 방식으로 작동한다. 생성자의 매개변수로 true를 넣으면 초기 상태가 열린 상태이다. false는 반대이다.
+        //커널 단의 bool 변수라고 생각하면 된다.
+        AutoResetEvent _available = new AutoResetEvent(true);
 
         public void Acquier()
         {
-            while (true)
-            {
-                int expected = 0;
-                int desired = 1;
-                if (Interlocked.CompareExchange(ref _locked, desired, expected) == expected)
-                {
-                    break;
-                }
-
-                //락을 취득하지 못했을 때 어떻게 처리하느냐에 따라 구현 방법이 나뉜다.
-                //랜덤 메타의 경우 쉬다올게 ~하는 느낌의 세가지 방법
-                //Thread.Sleep(0);
-                //Thread.Sleep(1);
-                Thread.Yield();
-            }
+            //입장을 시도한다.
+            _available.WaitOne();
+            //_available.Reset(); -> _available을 false로 만들어 주는 메서드이다.
+            //WaitOne()메서드에 내부적으로 사용되어 있으므로 구지 안 해도 된다.
         }
 
         public void Release()
         {
-            _locked = 0;
+            _available.Set(); //_available을 true로 만들어주는 메서드
         }
     }
 
     internal class Program
     {
         static int _num = 0;
-        static SpinLock spinLock = new SpinLock();
+        static Lock _lock = new Lock();
 
         static void Thread1()
         {
-            for (int i = 0; i < 10000; i++)
+            for (int i = 0; i < 10000000; i++)
             {
-                spinLock.Acquier();
+                _lock.Acquier();
                 _num++;
-                spinLock.Release();
+                _lock.Release();
             }
         }
 
         static void Thread2()
         {
-            for (int i = 0; i < 10000; i++)
+            for (int i = 0; i < 10000000; i++)
             {
-                spinLock.Acquier();
+                _lock.Acquier();
                 _num--;
-                spinLock.Release();
+                _lock.Release();
             }
         }
 
